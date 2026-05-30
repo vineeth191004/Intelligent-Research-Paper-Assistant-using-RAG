@@ -4,7 +4,7 @@ A production-grade, modular Retrieval-Augmented Generation (RAG) system for ques
 
 ---
 
-## 🚀 Resume Description
+## 🚀 Project Description
 
 > **Research Paper Question Answering System using RAG and LLMs**
 > *Developed a Retrieval-Augmented Generation (RAG) chatbot for research paper question answering using LangChain, FAISS, Sentence Transformers, and Ollama. Implemented hybrid retrieval, semantic search, citation-based responses, and conversational memory, enabling accurate document-grounded answers from uploaded PDFs.*
