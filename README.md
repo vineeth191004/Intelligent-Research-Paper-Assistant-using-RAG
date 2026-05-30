@@ -40,10 +40,6 @@ The system follows a clean, modular pipeline designed to run efficiently on stan
                                       v
                         💬 Ollama Local LLM Answer Generation
                                [Grounded with page-level citations]
-                                      |
-                                      v
-                        📊 Evaluation Telemetry Dashboard
-                   [Faithfulness, Context/Answer Relevance, Precision]
 ```
 
 ---
@@ -56,10 +52,6 @@ The system follows a clean, modular pipeline designed to run efficiently on stan
 4. **Cross-Encoder Reranking**: Re-evaluates top retrieved chunks using a `cross-encoder/ms-marco-MiniLM-L-6-v2` model to maximize chunk relevance.
 5. **Conversational Memory**: Implements contextual query condensation. Chat history and current queries are rephrased into a standalone query before vector search.
 6. **Page-level Citations**: Highlights specific source files and page numbers for every generated claim, minimizing LLM hallucinations.
-7. **RAG Evaluation Dashboard**:
-   - **Retrieval Metrics**: Calculates **Precision@K** and **Recall@K** using custom test queries and user-provided ground-truth page numbers.
-   - **Generation Metrics**: Uses LLM-assisted evaluation (via Ollama) to grade response quality across **Faithfulness (Groundedness)**, **Context Relevance**, and **Answer Relevance**.
-
 ---
 
 ## 🛠️ Technology Stack
