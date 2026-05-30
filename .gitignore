@@ -1,0 +1,28 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+*.log
+
+# Project specific data/indexes
+*.index
+*.json
+data/
+*.pdf
+
+# Model weights
+*.bin
+*.pt
+*.safetensors
